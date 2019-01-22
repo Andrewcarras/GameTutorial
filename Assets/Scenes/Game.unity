@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.02
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -196,7 +196,7 @@ PrefabInstance:
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.51
+      value: 20.7
       objectReference: {fileID: 0}
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
@@ -265,7 +265,7 @@ PrefabInstance:
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.33
+      value: 33.3
       objectReference: {fileID: 0}
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
@@ -334,7 +334,7 @@ PrefabInstance:
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.51
+      value: 21.8
       objectReference: {fileID: 0}
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
@@ -633,7 +633,7 @@ PrefabInstance:
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.39
+      value: 23.3
       objectReference: {fileID: 0}
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
@@ -702,7 +702,7 @@ PrefabInstance:
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.438133
+      value: 21.8
       objectReference: {fileID: 0}
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
@@ -861,8 +861,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83bae3fcfffb7fc44a073ad871ba0e19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardForce: 4000
-  sidewaysForce: 100
+  forwardForce: 2000
+  sidewaysForce: 80
 --- !u!54 &1558192297
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -878,7 +878,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1 &1603021084
 GameObject:
   m_ObjectHideFlags: 0
@@ -1060,7 +1060,7 @@ PrefabInstance:
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.3
+      value: 32.4
       objectReference: {fileID: 0}
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
@@ -1129,7 +1129,7 @@ PrefabInstance:
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.33
+      value: 33.1
       objectReference: {fileID: 0}
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
@@ -1198,7 +1198,7 @@ PrefabInstance:
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.33
+      value: 32.8
       objectReference: {fileID: 0}
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
@@ -1267,7 +1267,7 @@ PrefabInstance:
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.16
+      value: 32.8
       objectReference: {fileID: 0}
     - target: {fileID: 8431111840171633144, guid: 0c5b1700e3b144d4b89be2dfc3b681c6,
         type: 3}
